@@ -39,8 +39,9 @@ function renderTable(data) {
         <td>${coin.name}</td>
         <td>${coin.symbol.toUpperCase()}</td>
         <td>$${coin.current_price.toLocaleString()}</td>
-        <td>${coin.total_volume.toLocaleString()}</td>
+        <td>$${coin.total_volume.toLocaleString()}</td>
         <td>${coin.price_change_percentage_24h.toFixed(2)}%</td>
+        <td>$${coin.market_cap.toLocaleString()}</td>
       </tr>
     `
     )
